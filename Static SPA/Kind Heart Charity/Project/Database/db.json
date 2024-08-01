@@ -1,0 +1,24 @@
+{
+  "causes": [
+    {
+      "title": "Children Education",
+      "text": "Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito",
+      "raised": 18.500,
+      "goal": 32.00
+    },
+
+    {
+      "title": "Poverty Development",
+      "text": "Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus tempor",
+      "raised": 27.600,
+      "goal": 60.000
+    },
+
+    {
+      "title": "Supply drinking water",
+      "text": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
+      "raised": 84.600,
+      "goal": 100.000
+    }
+  ]
+}

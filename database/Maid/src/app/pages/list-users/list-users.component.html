@@ -1,0 +1,36 @@
+<app-loading *ngIf="loader"></app-loading>
+
+
+<section class="users-data">
+  <h2>List Of All <span>Users</span></h2>
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Email</th>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Avatar</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td data-label="ID">{{user['id']}}</td>
+          <td data-label="Email">{{user['email']}}</td>
+          <td data-label="First Name">{{user['first_name']}}</td>
+          <td data-label="Last Name">{{user['last_name']}}</td>
+          <td data-label="Avatar"><img [src]="user['avatar']" alt="avatar"></td>
+          <td data-label="Action">
+            <a routerLink="/details/{{user['id']}}" class="details"><i class="fas fa-info-circle"></i>Details</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pagination-controls">
+      <button class="btn btn-danger" (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+      <button class="btn btn-info" (click)="nextPage()">Next</button>
+    </div>
+  </div>
+</section>

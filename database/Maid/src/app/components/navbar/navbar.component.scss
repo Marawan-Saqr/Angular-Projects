@@ -1,0 +1,26 @@
+.navbar-top nav {
+  background-color: #333 !important;
+  border-bottom: 2px solid orangered;
+}
+
+.navbar-top nav .navbar-brand {
+  color: #fff;
+}
+
+.navbar-top nav .nav-link {
+  color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.navbar-top nav .nav-link:hover {
+  color: orangered;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}

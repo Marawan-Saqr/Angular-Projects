@@ -1,0 +1,205 @@
+.users-data {
+  padding: 20px;
+}
+
+.users-data h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.users-data h2 span {
+  color: orangered;
+}
+
+.users-data .container {
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-data .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.users-data th,
+.users-data td {
+  padding: 5px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle; /* Center vertically */
+}
+
+.users-data th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.users-data tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.users-data tr:hover {
+  background-color: #f1f1f1;
+}
+
+.users-data th.scope-row {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.users-data td[colspan="2"] {
+  text-align: center;
+}
+
+.users-data img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.users-data a {
+  text-decoration: none;
+}
+
+.users-data .details {
+  background-color: #0075c6;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.users-data .details:hover {
+  background-color: #004374;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.users-data i {
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.users-data i.fa-edit {
+  background-color: aqua;
+  transition: 0.5s;
+}
+
+.users-data i.fa-edit:hover {
+  background-color: #005f5f;
+}
+
+.users-data i.fa-trash {
+  background-color: red;
+  transition: 0.5s;
+}
+
+.users-data i.fa-trash:hover {
+  background-color: #700000;
+}
+
+@media (max-width: 767px) {
+  .users-data .table thead {
+    display: none;
+  }
+
+  .users-data .table tbody,
+  .users-data .table tr,
+  .users-data .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .users-data .table tr {
+    margin-bottom: 15px;
+  }
+
+  .users-data .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    vertical-align: middle; /* Center vertically */
+  }
+
+  .users-data .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .users-data .table thead {
+    display: none;
+  }
+
+  .users-data .table tbody,
+  .users-data .table tr,
+  .users-data .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .users-data .table tr {
+    margin-bottom: 15px;
+  }
+
+  .users-data .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    vertical-align: middle; /* Center vertically */
+  }
+
+  .users-data .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+
+.users-data .pagination-controls button {
+  margin-right: 8px;
+  color: #fff;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}

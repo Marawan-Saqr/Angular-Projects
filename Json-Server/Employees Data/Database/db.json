@@ -1,3 +1,13 @@
 {
-  "employees": []
+  "employees": [
+    {
+      "firstName": "Marawan",
+      "lastName": "Saqr",
+      "email": "dwdwd@email.com",
+      "phone": "84738291831",
+      "position": "Front-End Angular",
+      "department": "It Solutions",
+      "id": "84ff"
+    }
+  ]
 }
